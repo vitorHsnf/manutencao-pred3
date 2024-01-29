@@ -1,0 +1,59 @@
+.menu-content {
+    font-size: 30px;
+    color: black;
+    width: 400px; /* Largura do conteúdo do menu */
+    height: 100%; /* Altura do conteúdo do menu */
+    padding: 0px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo do conteúdo do menu */
+    box-sizing: border-box; /* Incluir a borda e o preenchimento na largura e altura total */
+    overflow-y: auto; /* Adicionar uma barra de rolagem vertical, se necessário */
+}
+
+.header-menu {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 25px 50px;
+    font-size: 24px;
+    font-weight: bold; /* Usar "normal" ou "bold" para alternar entre fonte normal e negrito */
+}
+
+.footer-menu {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #cccccc;
+    color: black;
+    text-align: left;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: bold; /* Usar "normal" ou "bold" para alternar entre fonte normal e negrito */
+    position: fixed;
+    bottom: 0;
+    width: 300px; /* Revisar */
+}
+  
+/* Estilos do Botão de Menu */
+.menu-button {
+    position: fixed;
+    top: 52px; /* Posição vertical em relação ao topo da tela */
+    left: 30px; /* Posição horizontal em relação à direita da tela */
+    z-index: 1001; /* Certificar-se de que o botão de menu esteja acima de outros elementos */
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0px 50px;
+}
+  
+li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 30px; /* Ajustar a largura do ícone */
+    height: 30px; /* Ajuste a altura do ícone */
+    margin-right: 20px; /* Espaçamento */
+}

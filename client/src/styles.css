@@ -1,0 +1,134 @@
+@import './components/CadastroMaquina.css';
+@import './components/Menu.css';
+
+/* Importar fontes */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Estilo da página */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Formulário (Título) */
+label {
+  display: block;
+  margin-bottom: 0px;
+  color: #000000;
+  text-align: left;
+}
+
+/* Formulário (Campo de Inserção) */
+input {
+  width: 500px;
+  height: 35px;
+  padding: 10px;
+  margin-bottom: 0px;
+  background-color: #D5D5D5;
+  border: 1px solid #000000;
+  border-radius: none;
+  box-sizing: border-box;
+}
+
+/* Botão */
+button {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+/* Cabeçalho */
+.header {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 25px 100px;
+  font-size: 24px;
+  font-weight: bold; /* Usar "normal" ou "bold" para alternar entre fonte normal e negrito */
+}
+
+/* Componentes da página (Corpo) */
+.container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal; /* Usar normal" ou "bold" para alternar entre fonte normal e negrito */
+}
+
+/* Botões (Preto-redondo) */
+.rounded-black {
+  background-color: #000000;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold; /* Usar "normal" ou "bold" para alternar entre fonte normal e negrito */
+  width: 200px;
+  height: 35px;
+}
+
+/* Botões (Cinza-redondo) */
+.rounded-gray {
+  background-color: #D9D9D9;
+  color: black;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold; /* Usar "normal" ou "bold" para alternar entre fonte normal e negrito */
+  width: 200px;
+  height: 35px;
+}
+
+/* Botões (Preto-quadrado) */
+.square-black {
+  background-color: #000000;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold; /* Usar "normal" ou "bold" para alternar entre fonte normal e negrito */
+  width: 200px;
+  height: 50px;
+}
+
+/* Menu */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+  z-index: 1001; /* Certificar-se de que o overlay esteja acima de outros elementos */
+  display: flex;
+  align-items: flex-start; /* Alinhe os itens no topo */
+  justify-content: flex-start; /* Alinhe os itens à direita */
+}
+
